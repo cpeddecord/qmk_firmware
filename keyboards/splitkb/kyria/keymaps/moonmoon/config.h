@@ -16,14 +16,6 @@
 
 #pragma once
 
-#ifdef RGBLIGHT_ENABLE
-#    define RGBLIGHT_ANIMATIONS
-#    define RGBLIGHT_HUE_STEP  8
-#    define RGBLIGHT_SAT_STEP  8
-#    define RGBLIGHT_VAL_STEP  8
-#    define RGBLIGHT_LIMIT_VAL 150
-#endif
-
 // Lets you roll mod-tap keys
 #define IGNORE_MOD_TAP_INTERRUPT
 
@@ -34,3 +26,6 @@
 #    define OLED_FADE_OUT
 #    define OLED_FADE_OUT_INTERVAL 15
 #endif
+
+#define SPLIT_LAYER_STATE_ENABLE
+#define SPLIT_MODS_ENABLE
